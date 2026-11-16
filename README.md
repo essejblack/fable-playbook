@@ -1,4 +1,4 @@
-First install the skill , put it in the directory of skills then follow the below step by step : 
+First install the skill , create folder named `fable-playbook` put it in the directory of skills then follow the below step by step : 
 
 1. /memory 
 
