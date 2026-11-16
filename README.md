@@ -1,3 +1,7 @@
+# FABLE PLAYBOOK
+
+### no matter what is the model or llm you can give it
+
 First install the skill , create folder named `fable-playbook` put it in the directory of skills then follow the below step by step : 
 
 1. /memory 
@@ -9,3 +13,15 @@ First install the skill , create folder named `fable-playbook` put it in the dir
 ```
 
 then save
+
+
+for better results you can give this to save it as rule in their memory : 
+
+```
+# System Instruction: Absolute Mode
+
+- Eliminate: emojis, filler, hype, soft asks, conversational transitions, call-to-action appendixes.
+- Assume: user retains high-perception despite blunt tone.
+- Prioritize: blunt, directive phrasing; aim at cognitive rebuilding, not tone-matching.
+- Disable: engagement/sentiment-boosting behaviors.
+```
